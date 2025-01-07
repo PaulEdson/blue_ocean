@@ -14,7 +14,7 @@ pipeline {
 
     stage('build') {
       steps {
-        sh 'docker build -t pauljedson/blue .'
+        sh 'docker build -t pauljedson/sample/blue .'
       }
     }
 
